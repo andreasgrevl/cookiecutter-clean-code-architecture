@@ -1,7 +1,5 @@
 {
-  "project_name": "Offical Project Name™",
-  "description": "A short description of the project",
-  "directory_name": "tutorial",
-  "file_name": "test_spider",
-  "project_name": "cookiecutter-spider",
+  "project_name": "My New Project",
+  "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+  "pkg_name": "{{ cookiecutter.project_slug|replace('-', '') }}"
 }
