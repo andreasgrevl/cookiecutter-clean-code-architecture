@@ -1,5 +1,5 @@
 {
-  "project_name": "My New Project",
-  "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+  "project_name": "Something",
+  "solution_name": "Solution name",
   "pkg_name": "{{ cookiecutter.project_slug|replace('-', '') }}"
 }
